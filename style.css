@@ -1,0 +1,42 @@
+
+:root{
+    --spacing: 10px;
+    --blur: 5px;
+    --base: brown;
+}
+body{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    background-color: #EA8138;  
+    padding: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 100;
+}
+.controls{
+    font-size: 1.5vw;
+}
+span{
+    color: yellow;
+}
+h2{
+    font-size: 2.5vw;
+}
+.h1{
+    color: var(--base);
+}
+a{
+    text-decoration: none;
+    color: var(--base);
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    margin: 3%;
+    width: 60%;
+    height: 45%;
+}
